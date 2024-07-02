@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
+}
+
+@media only screen and (max-width: 768px) {
+  .header, main {
+      width: 100%;
+  }
+}
+body {
+  background-color: #5b2386;
+  margin: 0 aut0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+}
+
+#wrap {
+  width: 100%;
+ 
+}
+.image {
+  text-align: center;
+  margin-top: 200px;
+  position: relative;
+}
+.image img {
+  width: 564px;
+  height: 112px;
+  position: relative;
+  z-index: 1;
+}
+.load {
+  position: relative;
+  width: 100%;
+  margin-top: -170px;
+  text-align: center;
+  opacity: 20%;
+}
+
+.load img::after {
+  position: absolute;
+}
+
+header h2 {
+  font-family: "OTEnjoystoriesBA";
+  color: #f5df4d;
+  font-size: 40px;
+  line-height: 39.6px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.box1 {
+  text-align: center;
+  margin-top: 80px;
+}
+.box1 img {
+  width: 408px;
+}
+
+.box1 h2 {
+  font-family: "GmarketSansBold";
+  font-size: 22px;
+  margin-top: -40px;
+  line-height: 30px;
+}
+
+.box1 span {
+  font-family: "GmarketSansMedium";
+  font-size: 15px;
+}
+
+.box2 {
+  font-family: "Noto Sans KR";
+  text-align: center;
+  margin-top: 102px;
+  font-size: 24px;
+}
+
+.box2 div {
+  line-height: 90px;
+}
+
+input {
+  font-family: "Noto Sans KR";
+  text-align: center;
+  width: 228px;
+  height: 57px;
+  border-radius: 7px;
+  font-size: 24px;
+  border: 1px solid #fff;
+}
+
+input::placeholder {
+  color: #babcbe;
+}
+
+.box3 {
+  text-align: center;
+  margin-top: 115px;
+}
+
+.box3 .cli {
+  background-color: #fcee21;
+  border-radius: 54px;
+  padding: 21px;
+}
+
+.box3 button {
+  font-family: "GmarketSansBold";
+  color: #5b2386;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.click {
+  position: relative;
+  text-align: center;
+  margin-right: -650px;
+  margin-top: -50px;
+}
+
+.click img::after {
+  position: absolute;
+}
+
+.box4 {
+  font-family: "GmarketSansMedium";
+  text-align: center;
+  line-height: 80px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 147px;
+}
+
+.box4 span {
+  font-family: "GmarketSansBold";
+  font-size: 72px;
+  font-family: 700;
+  padding: 10px;
+}
+
+.box5 {
+  text-align: center;
+  margin-top: 147px;
+}
+
+.box5 .yello {
+  background-color: #fcee21;
+  border-radius: 54px;
+  padding: 21px;
+}
+
+.yello button {
+  font-family: "GmarketSansBold";
+  padding: 21px;
+  font-size: 24px;
+  color: #5b2386;
+}
+
+.box5 .whit {
+  background-color: #fff;
+  border-radius: 54px;
+  padding: 21px;
+  width: 356px;
+}
+
+.whit button {
+  font-family: "GmarketSansBold";
+  padding: 21px;
+  font-size: 24px;
+  color: #5b2386;
+}
+
+.box5 div {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  margin-top: 147px;
+  width: 125px;
+  height: 25px;
+}
+
+footer h2 {
+  font-family: "Noto Sans KR";
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  padding-bottom: 80px;
+}
